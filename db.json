@@ -1,0 +1,127 @@
+{
+    "Users": [
+      {
+        "id": 1,
+        "name": "Milan",
+        "surname": "Stojkovic"
+      },
+      {
+        "id": 2,
+        "name": "Nenad",
+        "surname": "Stojkovic"
+      },
+      {
+        "id": 3,
+        "name": "Nikola",
+        "surname": "Vukotic"
+      },
+      {
+        "id": 4,
+        "name": "Dimitrije",
+        "surname": "Jankovic"
+      },
+      {
+        "id": 5,
+        "name": "Vladimir",
+        "surname": "Mitic"
+      }
+    ],
+    "Vehicle": [
+        {
+          "id": 1,
+          "manufacturer": "Renault",
+          "model": "Megane",
+          "modelYear": 2009,
+          "userId": 1
+        },
+        {
+          "id": 2,
+          "manufacturer": "Opel",
+          "model": "Corsa",
+          "modelYear": 2017,
+          "userId": 2
+        },
+        {
+          "id": 3,
+          "manufacturer": "BMW",
+          "model": "M4",
+          "modelYear": 2014,
+          "userId": 2
+        },
+        {
+          "id": 4,
+          "manufacturer": "Toyota",
+          "model": "Yaris",
+          "modelYear": 2004,
+          "userId": "3"
+        },
+        {
+          "id": 5,
+          "manufacturer": "Aston Martin",
+          "model": "DB9",
+          "modelYear": 2013,
+          "userId": 4
+        },
+        {
+          "id": 6,
+          "manufacturer": "Volkswagen",
+          "model": "Passat",
+          "modelYear": 2015,
+          "userId": 4
+        },
+        {
+          "id": 7,
+          "manufacturer": "Citroen",
+          "model": "C4",
+          "modelYear": 2014,
+          "userId": 5
+        }
+    ],
+    "Record": [
+        {
+          "vehicleKms": 100000,
+          "status": 2,
+          "vehicleId": 1,
+          "startDate": "2019-05-22",
+          "endDate": "2019-05-24",
+          "note": "Filters, breaks",
+          "id": 1
+        },
+        {
+          "vehicleKms": 75000,
+          "status": 2,
+          "vehicleId": 1,
+          "startDate": "2019-03-02",
+          "endDate": "2019-03-05",
+          "note": "Transmission, parking sensors, alternator",
+          "id": 2
+        },
+        {
+          "vehicleKms": 230000,
+          "status": 2,
+          "vehicleId": 2,
+          "startDate": "2019-02-17",
+          "endDate": "2019-02-24",
+          "note": "Engine",
+          "id": 3
+        },
+        {
+          "vehicleKms": 240000,
+          "status": 2,
+          "vehicleId": 2,
+          "startDate": "2019-04-20",
+          "endDate": "2019-04-21",
+          "note": "Water pump",
+          "id": 4
+        },
+        {
+          "vehicleKms": 255000,
+          "status": 1,
+          "vehicleId": 2,
+          "startDate": "2019-06-04",
+          "endDate": "",
+          "note": "Air Condition",
+          "id": 5
+        }
+    ]
+}
