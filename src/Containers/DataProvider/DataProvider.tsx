@@ -29,4 +29,4 @@ export class DataProvider extends React.Component <IDataProviderDispatch> {
     }
 }
 
-export default connect<IDataProviderDispatch>(null,mapDispatchToProps)
+export default connect<IDataProviderDispatch>(null,mapDispatchToProps)(DataProvider)

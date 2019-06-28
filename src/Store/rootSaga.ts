@@ -1,4 +1,4 @@
-import { all, CallEffectFn, fork, ForkEffect} from 'redux-saga/effects';
+import { all, fork, ForkEffect, CallEffectFn } from 'redux-saga/effects';
 import watchData from '../Containers/DataProvider/DataProvider.saga';
 
 
